@@ -12,7 +12,7 @@ This library allows you to add license plate lookup functionality to your CodeIg
 
 Or: 
  
-* Checkout the source: `git clone git://github.com/echonest/pyechonest.git` and install it yourself.
+* Checkout the source: `git clone git://github.com/kathmann/CI_AzureRDW.git` and install it yourself.
 
 ## Configuration
 
