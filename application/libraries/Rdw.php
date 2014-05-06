@@ -162,7 +162,7 @@ class Rdw
 	{
 		$ch = curl_init(); 
 		curl_setopt($ch, CURLOPT_URL, $this->actualUri); 
-		//curl_setopt($ch, CURLOPT_USERPWD, ":" . $this->_key); 
+		curl_setopt($ch, CURLOPT_USERPWD, ":" . $this->_key); 
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER,  true); 
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
 		$response = curl_exec($ch);
